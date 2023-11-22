@@ -1,0 +1,75 @@
+/* YourComponent.css */
+
+.weather-container {
+  text-align: center;
+  background-color: purple;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.search-row {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+.search {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.search img {
+  margin-top: 5px;
+  margin-left: 3px;
+}
+
+.weather-info .temp {
+  font-size: 50px;
+  margin: 0;
+  color: #fff;
+}
+.weather-info .city {
+  margin: 0;
+  color: yellow;
+  font-size: 35px;
+}
+.weather-info img {
+  width: 60px;
+  height: 60px;
+}
+
+.details-row {
+  display: flex;
+  justify-content: center;
+}
+
+.details-column {
+  margin: 0 20px;
+  color: #fff;
+}
+
+.details-column img {
+  width: 50px;
+  height: 50px;
+}
+
+.imgp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imgp p {
+  color: #fff;
+}
+.imgp img {
+  margin: 0;
+  width: 30px;
+  height: 30px;
+}
